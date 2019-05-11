@@ -1,0 +1,118 @@
+.navbar {
+  height: 95px;
+  background-color: #010101 !important;
+}
+
+
+#header img {
+  max-width: 40px;
+}
+
+#header li {
+  font-size: 14px;
+}
+/* #assistant {
+  background-image: url(images/Mercedes_Assist_2160x750.jpg);
+  width: 100%;
+} */
+
+#slide-change {
+  position: absolute;
+}
+
+#slide-change #texto-slides {
+  position: relative;
+}
+
+.info-slide {
+  position: relative;
+}
+
+.assistant {
+  position: relative;
+}
+
+.assistant .col {
+  padding: 0;
+}
+
+.assistant img {
+  max-width: 100%;
+  margin: 0;
+}
+
+.assistant h5,
+.assistant h6,
+#destacados h6 {
+  margin: 10px 0 20px 0;
+}
+
+#eq .info-assistant {
+  color: white;
+}
+
+.info-assistant {
+  top: 60%;
+  left: 40%;
+  height: 30%;
+  width: 50%;
+  margin: -15% 5% 0 -25%;
+  position: absolute;
+  /* background: red; */
+  z-index: 1;
+  align-items: center;
+}
+
+.info-assistant p {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+#destacados {
+  margin-bottom: 60px;
+}
+
+.card-destacados {
+  /* background: red; */
+  padding: 0;
+  text-align: center;
+}
+
+.card-destacados img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.card-destacados h4 {
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.card-destacados p {
+  font-size: 13px;
+  margin-top: 24px;
+}
+
+.card-destacados a {
+  font-size: 15px;
+  color: gray;
+}
+
+.card-destacados a:hover {
+  color: blue;
+}
+
+.card-destacados a::before {
+  color: rgb(0, 144, 255);
+  content: ">";
+  display: inline-block;
+  /* font-family: nafta-icons; */
+  font-size: 6px;
+  left: 0px;
+  margin-top: 0px;
+  position: absolute;
+  right: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
